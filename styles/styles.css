@@ -24,9 +24,6 @@ html {
     #title {
         font-size: 34px !important;
         line-height: 44px !important;
-        font-weight: bold;
-        padding: 20px 0px;
-        color: rgb(187, 119, 255);
     };
 
     #daniel {
@@ -36,22 +33,17 @@ html {
     .section-01-h1 {
         font-size: 22px !important;
         line-height: 32px !important;
-        font-weight: bold;
-        padding-top: 10px;
+ 
     };
 
     .section-01-h2 {
-        font-size: 20px !important;
-        line-height: 30px !important;
-        font-weight: lighter;
-        padding-top: 5px;
+        font-size: 18px !important;
+        line-height: 28px !important;
     };
 
     .section-01-p {
         font-size: 16px !important;
         line-height: 26px !important;
-        padding: 5px 0px;
-        padding-bottom: 20px;
     };
 
     .container {
@@ -66,7 +58,6 @@ html {
     .section-01-sociais {
         font-size: 34px !important;
         line-height: 44px !important;
-        padding-top: 20px;
     };
     
 }
