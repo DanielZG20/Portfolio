@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
@@ -17,6 +16,16 @@ html {
     height: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+    #title {
+        font-size: 34px;
+        line-height: 44px;
+        font-weight: bold;
+        padding: 20px 0px;
+        color: rgb(187, 119, 255);
+    }
+}
+
 header {
     width: 100%;
     background-color: #182024;
@@ -24,7 +33,7 @@ header {
     padding: 0px 40px;
 }
 
-.navbar{
+.navbar {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -37,7 +46,7 @@ header {
     flex-shrink: 1;
 }
 
-.navbar-icons img{
+.navbar-icons img {
     width: 50px;
     padding: 0px 10px;
 }
