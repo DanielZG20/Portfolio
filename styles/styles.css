@@ -31,6 +31,8 @@ header {
     flex-shrink: 1;
 }
 
-.navbar-icons{
+.navbar-icons img{
     color: #FFFF;
+    width: 40px;
+    padding: 0px 10px;
 }
