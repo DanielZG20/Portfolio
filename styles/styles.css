@@ -82,6 +82,11 @@ header {
     flex-shrink: 1;
 }
 
+.navbar-icons a {
+    list-style: none;
+    text-decoration: none;
+}
+
 .navbar-icons img {
     width: 50px;
     padding: 0px 10px;
@@ -155,6 +160,11 @@ header {
 .section01-icons {
     width: 100%;
     padding: 30px 0px;
+}
+
+.section01-icons a {
+    list-style: none;
+    text-decoration: none;
 }
 
 .section01-icons img {
