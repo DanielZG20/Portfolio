@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,15 +8,111 @@
 }
 
 body {
-    font-family: 'Segoe UI';
-    font-size: 16px;
-    background-color: rgb(186, 215, 226);
+    background-color: rgb(36, 43, 46);
+    color: #FFF;
 }
 
-main {
-    background-color: #ffffff;
-    width: 500px;
+html {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: #182024;
+    height: 70px;
+    padding: 0px 40px;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.navbar-brand img {
+    width: 50px;
+    flex-shrink: 1;
+}
+
+.navbar-icons img{
+    width: 50px;
+    padding: 0px 10px;
+}
+
+.container {
+    width: 100%;
+    padding: 0px 75px;
+}
+
+.section01 {
+    width: 100%;
+    max-width: 980px;
     margin: 0 auto;
-    padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 0px;
+}
+
+#title {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    padding: 20px 0px;
+    color: rgb(187, 119, 255);
+}
+
+#daniel {
+    border: 4px solid rgb(121, 67, 175);
+    border-radius: 50%;
+    width: 250px;
+}
+
+.section-01-h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.section-01-h2 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+
+.section-01-p {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 5px 0px;
+    padding-bottom: 20px;
+}
+
+.section-01-content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    max-width: 980px;
+    background-color: #0077B5;
+    border-radius: 70px 14px 70px 14px;
+    box-shadow: 15px 20px 15px #000000;
+}
+
+.section-01-sociais {
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 20px;
+}
+
+.section01-icons {
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.section01-icons img {
+    width: 60px;
+    padding: 0px 15px;
 }
