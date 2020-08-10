@@ -51,6 +51,18 @@ html {
         padding: 5px 0px;
         padding-bottom: 20px;
     }
+
+    .container {
+        width: 100%;
+        padding: 0px 30px !important;
+    }
+
+    .section-01-sociais {
+        font-size: 34px !important;
+        line-height: 44px !important;
+        padding-top: 20px;
+    }
+    
 }
 
 header {
