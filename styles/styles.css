@@ -31,8 +31,7 @@ header {
     flex-shrink: 1;
 }
 
-.navbar-text {
+.navbar-icons{
     color: #FFF;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    width: 200px;
 }
