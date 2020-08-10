@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    background-color: rgb(186, 215, 226);
+}
+
+main {
+    background-color: #ffffff;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
+}
