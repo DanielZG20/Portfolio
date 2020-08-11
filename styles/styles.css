@@ -179,6 +179,11 @@ footer {
     line-height: 32px;
 }
 
+.footer-03 img {
+    width: 100px;
+    color: #FFF;
+}
+
 @media only screen and (max-width: 768px) {
     .footer-content {
         display: inline-flex;
