@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 /* font-family: 'Roboto', sans-serif; */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap');
 /* font-family: 'Poppins', sans-serif; */
 
@@ -57,18 +58,6 @@ header {
     display: inline-flex;
 }
 
-.icon-toggle {
-    position: absolute;
-    right: 5%;
-    top: 10px;
-    visibility: hidden;
-    cursor: pointer;
-}
-
-.icon-toggle img {
-    width: 30px;
-}
-
 .navbar-content li {
     list-style: none;
     padding: 0px 15px;
@@ -80,15 +69,18 @@ header {
     font-family: 'Poppins', sans-serif;
 }
 
-.active {
-    visibility: visible;
+#icon-toggle {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    visibility: hidden;
+    cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
-    .navbar-content {
-        visibility: hidden;
-    }
-    .icon-toggle {
-        visibility: visible;
-    }
+#icon-toggle img {
+    width: 25px;
+}
+
+.active {
+    visibility: visible;
 }
