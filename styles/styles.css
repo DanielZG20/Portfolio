@@ -105,10 +105,9 @@ header {
     }
     .navbar-links li a {
         font-size: 18px;
-        padding: 7px 0px;
+        padding: 10px 0px;
     }
     .navbar-links.active {
         display: flex;
     }
-
 }
